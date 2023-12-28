@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    /*background-color: lightgrey;*/
+    background-color: #0d1117;
+    color: whitesmoke;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+th {
+    color: whitesmoke;
+}
+.chart_row {
+    /*background-color: #e3e3e3;*/
+    background-color: #161b22;
+}
+
+.icon {
+    width: 20px;
+}
+.img_del {
+    transition: 0.2s;
+    filter: invert(100%) sepia(100%) saturate(10%) hue-rotate(238deg) brightness(105%) contrast(100%);
+}
+.img_del:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+    filter: invert(13%) sepia(94%) saturate(5003%) hue-rotate(10deg) brightness(91%) contrast(101%);
+}
+.td_center {
+    text-align: center;
+}
+.prdt_link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+}
+.pr {
+    padding-right: 10px;
+}
